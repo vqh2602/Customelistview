@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <TextView
+        android:id="@+id/txtFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_weight="4"
+        android:hint="Vương Quang Huy"
+        android:gravity="center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="#005C53"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"/>
+
+    <ImageButton
+        android:id="@+id/callPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/stat_sys_vp_phone_call" />
+
+    <ImageButton
+        android:id="@+id/sendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/stat_notify_chat" />
+</LinearLayout>
