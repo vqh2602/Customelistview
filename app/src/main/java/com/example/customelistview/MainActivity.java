@@ -103,6 +103,15 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+
+
+        button_map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,MapActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
