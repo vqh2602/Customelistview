@@ -106,6 +106,11 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         mMapView.onSaveInstanceState(mapViewBundle);
     }
 
+    //get vi tri
+
+
+
+
     @Override
     protected void onStart() {
         super.onStart();

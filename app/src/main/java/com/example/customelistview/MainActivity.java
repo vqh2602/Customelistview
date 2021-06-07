@@ -82,11 +82,12 @@ public class MainActivity extends AppCompatActivity {
                             //Processing after the sign-out.
                             Log.i("MainActivity", "signOut complete");
                             Toast.makeText(MainActivity.this,"Đã Đăng Xuất" ,Toast.LENGTH_LONG).show();
+                            Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+                            startActivity(intent);
+                            finish();
                         }
                     });
-                    Intent intent = new Intent(MainActivity.this,LoginActivity.class);
-                    startActivity(intent);
-                    finish();
+
                 }
             });
         }
